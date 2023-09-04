@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*>*{
+    
+    padding: 0px;
+}
+body{
+    margin: 0px; 
+}
+.grid>div{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    
+}
+
+.circle{
+    border-radius: 50%;
+    width: 200x;
+    height: 200px;
+   
+}
